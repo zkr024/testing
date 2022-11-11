@@ -6,7 +6,6 @@
   align-items: center;
 }
 
-
 .home-data {
   position: relative;
   width: 45%;
@@ -31,12 +30,12 @@
   inset: -2px;
   background: #fff;
   z-index: -2;
-  filter: blur(40px)
+  filter: blur(40px);
 }
 
 .home-data::before,
 .home-data::after {
-  background: linear-gradient(15deg, #4048b4, #060c21, #0b545c)
+  background: linear-gradient(15deg, #4048b4, #060c21, #0b545c);
 }
 
 .home-title {
@@ -63,7 +62,7 @@
 
 .home-pic-border {
   border: 1px solid #4048b4;
-  box-shadow: rgba(64, 72, 180, 1) 0px 4px 16px;
+  box-shadow: rgba(64, 72, 180, 1) 0 4px 16px;
   border-radius: 50%;
   height: 165px;
   display: flex;

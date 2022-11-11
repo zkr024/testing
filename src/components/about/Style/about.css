@@ -29,10 +29,10 @@
   inset: -2px;
   background: #fff;
   z-index: -2;
-  filter: blur(40px)
+  filter: blur(40px);
 }
 
 .about-data::before,
 .about-data::after {
-  background: linear-gradient(15deg, #4048b4, #060c21, #0b545c)
+  background: linear-gradient(15deg, #4048b4, #060c21, #0b545c);
 }
