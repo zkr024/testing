@@ -1,0 +1,38 @@
+.about {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-data {
+  position: relative;
+  width: 45%;
+  color: var(--light);
+  display: flex;
+  flex-direction: column;
+  background-color: var(--dark);
+  padding: 50px;
+}
+
+.about-data::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  background: #fff;
+  z-index: -1;
+}
+
+.about-data::after {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  background: #fff;
+  z-index: -2;
+  filter: blur(40px)
+}
+
+.about-data::before,
+.about-data::after {
+  background: linear-gradient(15deg, #4048b4, #060c21, #0b545c)
+}

@@ -1,0 +1,38 @@
+nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: var(--top);
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  width: 100vw;
+  height: 62px;
+}
+
+.logo-container {
+  position: absolute;
+  top: -30px;
+  left: 300px;
+  width: 200px;
+  height: 200px;
+}
+
+.logo-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-right: 300px;
+}
+
+.nav-link {
+  margin: 7px 20px;
+  color: var(--light);
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 25px;
+}
