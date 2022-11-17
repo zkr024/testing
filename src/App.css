@@ -10,6 +10,9 @@
   padding: 0;
   box-sizing: border-box;
 
+  /* Nav position */
+  --position: 62px;
+
   /* colors */
   --light: #c9cee7;
   --night: #6b728e;
@@ -17,4 +20,41 @@
   --navy: #474e68;
   --top: #24275a;
   --dark: #1b1d31;
+}
+
+/* section */
+.home,
+.about {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* cards */
+.home-data,
+.about-data {
+  position: relative;
+  width: 45%;
+  color: var(--light);
+  display: flex;
+  flex-direction: column;
+  background-color: var(--dark);
+  padding: 50px;
+}
+
+.home-data::before,
+.home-data::after,
+.about-data::before,
+.about-data::after {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  z-index: -1;
+  background: linear-gradient(15deg, #4048b4, #060c21, #0b545c);
+}
+
+.home-data::after,
+.about-data::after {
+  filter: blur(30px);
 }
