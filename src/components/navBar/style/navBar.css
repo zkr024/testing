@@ -6,7 +6,7 @@ nav {
   z-index: 10;
   top: 0;
   width: 100vw;
-  height: 62px;
+  height: var(--position);
 }
 
 .logo-container {
